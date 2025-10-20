@@ -1,3 +1,5 @@
 # pca-for-genomics
 
 In this project, I applied Principal Component Analysis (PCA) to genomic variation data from the 1000 Genomes Project, focusing on seven African ancestry populations. After converting genotype data into a binary matrix representing deviations from the most common allele, I used PCA to reduce the dataset’s dimensionality and visualize hidden structure. The first few components revealed clear patterns related to population structure and sex differences, even though they explained only about 1.7% of the total variance. Finally, I trained a simple logistic regression model using the top four principal components to predict population membership, achieving roughly 82% accuracy. This demonstrates that PCA can effectively capture biologically meaningful variation in large-scale genomic data.
+
+To best interact with this project, please visit [https://dup0630.github.io/pca-for-genomics/main.html](https://dup0630.github.io/pca-for-genomics/main.html).
